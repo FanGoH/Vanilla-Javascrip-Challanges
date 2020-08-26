@@ -1,0 +1,38 @@
+html {
+background-color: rgb(0, 0, 0);
+
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.card {
+    text-align: center;
+    margin: 10px;
+    border: rgb(255, 255, 255) solid 2px;
+    width: 60px;
+    height: 70px;
+    padding-top: 10px;
+    transition: all 0.07s ease;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: #ffc600 solid 3px;
+}
+
+.sound {
+    color: #ffc600;;
+
+}
+

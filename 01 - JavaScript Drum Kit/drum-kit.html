@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customStyle.css" >
+    <script src="drum-kit.js"> </script>
+
+    <title> Electronic Drum Kit </title>
+</head>
+<body>
+    <div class="keys">
+
+        <div data-keycode="65" class="card"> <kbd>A</kbd> <div class="sound"> Clap </div> </div>
+
+        <div data-keycode="83" class="card"> <kbd>S</kbd> <div class="sound"> Kick </div> </div>
+
+        <div data-keycode="68" class="card"> <kbd>D</kbd> <div class="sound"> Closed Hi-Hat </div> </div>
+
+        <div data-keycode="70" class="card"> <kbd>F</kbd> <div class="sound"> Snare </div> </div>
+
+        <div data-keycode="71" class="card"> <kbd>G</kbd> <div class="sound"> Boom </div> </div>
+
+        <div data-keycode="72" class="card"> <kbd>H</kbd> <div class="sound"> Open Hi-Hat </div> </div>
+
+        <div data-keycode="74" class="card"> <kbd>J</kbd> <div class="sound"> Tom </div> </div>
+
+        <div data-keycode="75" class="card"> <kbd>K</kbd> <div class="sound"> Tink </div> </div>
+        
+        <div data-keycode="76" class="card"> <kbd>L</kbd> <div class="sound"> Crash </div> </div>
+
+    </div>
+
+</body>
+
+    <audio data-keycode="65" src="sounds/clap.wav"></audio>
+    <audio data-keycode="83" src="sounds/kick.wav"></audio>
+    <audio data-keycode="68" src="sounds/hihat.wav"></audio>
+    <audio data-keycode="70" src="sounds/snare.wav"></audio>
+    <audio data-keycode="71" src="sounds/boom.wav"></audio>
+    <audio data-keycode="72" src="sounds/openhat.wav"></audio>
+    <audio data-keycode="74" src="sounds/tom.wav"></audio>
+    <audio data-keycode="75" src="sounds/tink.wav"></audio>
+    <audio data-keycode="76" src="sounds/ride.wav"></audio>
+
+</html>
