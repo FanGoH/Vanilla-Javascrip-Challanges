@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.searchbox {
+    width: 50%;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 26px;
+    font-family: Alata;
+}
+
+.results {
+    width: 45%;
+    font-family: Alata;
+    font-size: 22px;
+    color: #414141;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.results>li {
+    list-style-type: none;
+    border: 0.5px black solid;
+    padding: 20px;
+}
+
+.hl {
+    background-color: #FF0;
+}
