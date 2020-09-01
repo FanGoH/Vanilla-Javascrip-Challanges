@@ -1,8 +1,8 @@
-30 days of Javascript Projects
+# 30 days of Javascript Projects
 
-Based on the course from: https://github.com/wesbos/JavaScript30
+Based on the course on: [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
 
-Projects: 
+Projects:
 
 [01 - Electronic Drum Kit](01%20-%20JavaScript%20Drum%20Kit/drum-kit.html)
 
@@ -15,3 +15,5 @@ Projects:
 [05 - Flex Panel](05%20-%20Flex%20Panel%20Gallery/flex-panel.html)
 
 [06 - Autocompletion](06%20-%20Type%20Ahead/regexp.html)
+
+[08 - Drawing Canvas](08%20-%20Fun%20with%20HTML5%20Canvas/canvas.html)
