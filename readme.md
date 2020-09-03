@@ -17,3 +17,5 @@ Projects:
 [06 - Autocompletion](06%20-%20Type%20Ahead/regexp.html)
 
 [08 - Drawing Canvas](08%20-%20Fun%20with%20HTML5%20Canvas/canvas.html)
+
+[10 - Multiple Checkboxes](10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/checkboxes.html)

@@ -1,0 +1,7 @@
+div.listElement {
+    display: inline;
+}
+
+div.listElement.done {
+    text-decoration: line-through;
+}
