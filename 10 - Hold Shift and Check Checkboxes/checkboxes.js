@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             for(let i = start-1; i < finish; i++) {
                 lista[i].classList.toggle("done");
+                lista[i].children[0].checked = true;
+
             }
             console.log(`${start} - ${finish}`)
             
