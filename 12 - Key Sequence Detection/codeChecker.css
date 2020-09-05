@@ -1,0 +1,12 @@
+html, body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

@@ -19,3 +19,7 @@ Projects:
 [08 - Drawing Canvas](08%20-%20Fun%20with%20HTML5%20Canvas/canvas.html)
 
 [10 - Multiple Checkboxes](10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/checkboxes.html)
+
+[11 - Custom Video Player](11%20-%20Custom%20Video%20Player/videoPlayer.html)
+
+[12 - Secret Code Sequence](12%20-%20Key%20Sequence%20Detection/codeChecker.html)
