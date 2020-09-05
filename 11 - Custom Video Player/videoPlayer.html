@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="videoPlayer.css">
+
+    <title>Video Player</title>
+</head>
+<body>
+    
+    <div class="container"> 
+        <video class="videoBox" src="652333414.mp4">
+
+        </video>
+        <div class="controls">
+            <div class="playButton button" > ► </div> 
+            <div class="volume"> 🔊
+                <input class="volume button" type="range" min=0 max=100 value=50> 
+            </div>
+            <div class="speed"> »   
+                <input class="speed button" type="range" min=0 max=200 step="10"> 
+            </div>
+            <div class="skip">
+                <div class="skip child" data-skip=-5> ↺ </div>
+                <div class="skip child" data-skip=10> ↻ </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <script src="videoPlayer.js"></script>
+</body>
+</html>

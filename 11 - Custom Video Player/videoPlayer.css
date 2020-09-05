@@ -1,0 +1,72 @@
+html {
+    height: 90%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+div.container {
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    /* width: 40%; */
+}
+
+.videoBox {
+    width: 80%;
+}
+
+div.controls {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 80%;
+}
+
+div.controls> div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+div.controls .skip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+div.controls *:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+div.controls .skip:hover {
+    background-color: inherit;
+    cursor: inherit;
+}
+
+div.controls div.skip .skip.child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+    width: 30px;
+}
+
+div.controls div.skip .skip.child:hover {
+    background-color: red;
+    cursor: pointer;
+}
