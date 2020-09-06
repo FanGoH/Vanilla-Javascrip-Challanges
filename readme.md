@@ -23,3 +23,5 @@ Projects:
 [11 - Custom Video Player](11%20-%20Custom%20Video%20Player/videoPlayer.html)
 
 [12 - Secret Code Sequence](12%20-%20Key%20Sequence%20Detection/codeChecker.html)
+
+[13 - Slide in Animation](13-13%20-%20Slide%20in%20on%20Scroll/index-START.html)
