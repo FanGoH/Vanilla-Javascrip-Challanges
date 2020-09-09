@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    background: url("oh-la-la.jpeg") center no-repeat;
+    background-size: cover;
+    height: 90%; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+}
+
+div.container {
+    background: white;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+ul.lista {
+    list-style: none;
+    padding: 0;
+}
+
+ul.lista >li {
+    border: 0.5px rgba(0, 0, 0, 0.493) solid;
+    padding: 10px;
+}
+
+ul.lista > li > input {
+    display: none;
+}
+
+ul.lista >li > input + label:before{
+    content: "⬜️";
+}
+
+ul.lista >li > input:checked + label:before {
+    content: "🌮";
+}
+
+form.add {
+    padding: 10px;
+}

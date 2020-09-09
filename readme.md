@@ -25,3 +25,5 @@ Projects:
 [12 - Secret Code Sequence](12%20-%20Key%20Sequence%20Detection/codeChecker.html)
 
 [13 - Slide in Animation](13-13%20-%20Slide%20in%20on%20Scroll/index-START.html)
+
+[15 - Local Storage](15%20-%20LocalStorage/localStorage.html)
