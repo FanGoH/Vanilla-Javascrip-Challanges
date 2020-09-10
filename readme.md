@@ -27,3 +27,5 @@ Projects:
 [13 - Slide in Animation](13-13%20-%20Slide%20in%20on%20Scroll/index-START.html)
 
 [15 - Local Storage](15%20-%20LocalStorage/localStorage.html)
+
+[16 - Interactive SHadow](16%20-%20Mouse%20Move%20Shadow/shadow.html)
