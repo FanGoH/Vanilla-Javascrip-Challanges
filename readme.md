@@ -29,3 +29,5 @@ Projects:
 [15 - Local Storage](15%20-%20LocalStorage/localStorage.html)
 
 [16 - Interactive SHadow](16%20-%20Mouse%20Move%20Shadow/shadow.html)
+
+[17 - Trim and Sort](17%20-%20Sort%20Without%20Articles/sort.html)
